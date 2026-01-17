@@ -9,7 +9,7 @@ const Footer = () => {
         marginTop: '20px'
       }}
     >
-      <p>© 2026 My React App</p>
+      <p>© 2023 City Lovers</p>
     </footer>
   );
 };

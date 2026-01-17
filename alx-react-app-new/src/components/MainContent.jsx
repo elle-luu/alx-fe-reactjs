@@ -9,7 +9,7 @@ const MainContent = () => {
     >
       <h2 style={{ color: '#333' }}>Welcome!</h2>
       <p style={{ lineHeight: '1.6' }}>
-        This is the main content section of the app.
+        "I love to visit New York, Paris, and Tokyo."
       </p>
     </main>
   );
