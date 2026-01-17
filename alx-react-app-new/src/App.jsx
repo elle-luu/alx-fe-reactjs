@@ -3,7 +3,7 @@ import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
 import UserProfile from './components/UserProfile';
-
+import Counter from './components/Counter';
 
 
 
@@ -23,8 +23,11 @@ function App() {
       <div>
       <Header />
       <MainContent />
-      <Footer />
-    </div>
+      <UserProfile name="Senoya" age={25} bio="Learning React at ALX!" />
+      <Counter />
+      <Footer />  
+        </div>
+
 
     <div>
       <WelcomeMessage />
