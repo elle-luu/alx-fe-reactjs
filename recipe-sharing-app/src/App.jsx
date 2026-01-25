@@ -32,10 +32,20 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <div>
-      <h1>Recipe Sharing App</h1>
+       <h1>Recipe Sharing App</h1>
 
-      <AddRecipeForm />
-      <RecipeList />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <AddRecipeForm />
+              <RecipeList />
+            </>
+          }
+        />
+        <Route path="/recipes/:id" element={<RecipeDetails />} />
+      </Routes>
     </div>
 
 
